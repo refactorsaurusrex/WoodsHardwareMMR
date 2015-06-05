@@ -35,8 +35,8 @@
     <SccProvider>SAK</SccProvider>
     <IsWebBootstrapper>True</IsWebBootstrapper>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <PublishUrl>D:\ClickOnce\WoodsHardwareMmr\</PublishUrl>
-    <InstallUrl>https://nickspreitzer.blob.core.windows.net/woodshardware-mmr/</InstallUrl>
+    <PublishUrl>publish\</PublishUrl>
+    <InstallUrl>https://raw.githubusercontent.com/refactorsaurusrex/WoodsHardwareMMR/master/WoodsHardwareMMR/publish/</InstallUrl>
     <TargetCulture>en</TargetCulture>
     <ApplicationVersion>1.0.0.4</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
@@ -256,11 +256,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>
-    </ManifestKeyFile>
+    <ManifestKeyFile>WoodsHardwareMMR_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>50D0DFC5474E6E0AE880B14114DB33ECA72C404A</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>3284C7181FC8D784FD43E464590F9FFF0B9E3CE0</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
