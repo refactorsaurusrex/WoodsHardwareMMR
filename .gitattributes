@@ -4,6 +4,11 @@
 # Custom for Visual Studio
 *.cs     diff=csharp
 
+#ClickOnce Files
+*.manifest binary
+*.application binary
+*.deploy binary
+
 # Standard to msysgit
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
