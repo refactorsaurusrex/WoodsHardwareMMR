@@ -46,7 +46,7 @@ namespace WoodsHardwareMMR
 
 				backupSheet.CreateBackup(reportSheet);
 				int columnCount = (int)excelApp.WorksheetFunction.CountA(headerRow);
-				int rowCount = (int)excelApp.WorksheetFunction.CountA(reportSheet.UsedRange.Columns[1]) - 2;
+				int rowCount = (int)excelApp.WorksheetFunction.CountA(reportSheet.UsedRange.Columns[1]) - 1;
 
 				for (int columnIndex = columnCount; columnIndex >= 1; columnIndex--)
 				{
